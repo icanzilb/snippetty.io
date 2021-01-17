@@ -1,0 +1,7 @@
+#baseURL = "http://localhost:1313/"
+baseURL = "http://snippetty.io/blog/"
+languageCode = "en-us"
+title = "Snippetty App Blog"
+theme = "Base16"
+
+pygmentsuseclasses = true

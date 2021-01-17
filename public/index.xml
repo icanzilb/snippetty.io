@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snippetty App Blog</title>
+    <link>http://snippetty.io/blog/</link>
+    <description>Recent content on Snippetty App Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Apr 2018 17:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://snippetty.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Snippetty is on Product Hunt!</title>
+      <link>http://snippetty.io/blog/post/product-hunt.html</link>
+      <pubDate>Sun, 22 Apr 2018 17:00:00 +0200</pubDate>
+      
+      <guid>http://snippetty.io/blog/post/product-hunt.html</guid>
+      <description>🎉 Snippetty&amp;rsquo;s being hunted. In a good way :) Snippetty is now on Product Hunt and I got pinged that it might get featured, so &amp;hellip; this is great! I hear that Product Hunt gives product launches a nice big boost so I&amp;rsquo;d appreciate it a ton if you have a second ad upvote Snippetty on Product Hunt, thanks a lot!
+ P.S. For all updates in real time follow: https://twitter.</description>
+    </item>
+    
+    <item>
+      <title>Hello Snippetty!</title>
+      <link>http://snippetty.io/blog/post/hello-snippetty.html</link>
+      <pubDate>Tue, 10 Apr 2018 08:00:00 +0200</pubDate>
+      
+      <guid>http://snippetty.io/blog/post/hello-snippetty.html</guid>
+      <description>&lt;h1 id=&#34;5-days-to-release-date&#34;&gt;🎉 5 days to release date&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://snippetty.io/blog/blog/img/snippetty0.9.1.png&#34; alt=&#34;Snippetty 0.9.1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been working on Snippetty for months and now there are just 5 days left to the release date.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="{{ if eq .Description "" }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
+{{- with $.Param "keywords" }}
+<meta name="keywords" content="{{ delimit . "," }}">
+{{- end }}
+{{- with $.Param "author" }}
+<meta name="author" content="{{ . }}">
+{{- end }}
+{{ .Hugo.Generator }}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="{{ "index.xml" | relURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+<title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+</head>
+<style>
+  .home {float: right; display: block;}
+  .logo { width: 32px; height: 32px; }
+  .green { color: #30a969; }
+  .summary img {max-width: 600px;}
+</style>
+<body>
+
+<header>
+  <div class="container clearfix">
+	<a class="home" href="http://snippetty.io"><img src="http://snippetty.io/assets/img/snippette.png" class="logo"/></a>
+	<a class="home green" style="margin-right: 16px; margin-top:2px;" href="http://snippetty.io">snippetty.io</a>
+    <a class="path" href="{{ .Site.BaseURL }}">
+	    [{{ .Site.Title }}]
+	</a>
+
+    <!--span class="caret"># _</span>
+    <div class="right">
+      {{ range $i, $page := (where .Site.Pages "Section" "pages") }}
+        {{ if not (eq $i 0) }}|{{ end }}
+        <a class="path" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+      {{ end }}
+    </div-->
+  </div>
+</header>
+
+<div class="container">
